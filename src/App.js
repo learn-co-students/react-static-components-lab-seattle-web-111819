@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import CatComponent from './CatComponent.js'
+import FordQuoteComponent from './FordQuoteComponent.js'
+import MouseComponent from './MouseComponent.js'
 
 class App extends Component {
 	render() {
@@ -7,6 +10,8 @@ class App extends Component {
 			<div className="App">
 				<CatComponent />
 				<EinsteinQuoteComponent />
+				<MouseComponent />
+
 				{/* one more component missing */}
 			</div>
 		);
